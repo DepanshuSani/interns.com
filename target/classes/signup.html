@@ -1,0 +1,62 @@
+      		
+            <script>
+				function run()
+				{
+					if($("input[name=pass]").val() != $("input[name=cpass]").val())
+					{
+						$("input[name=pass]").css("border","1px solid red");
+						$("input[name=cpass]").css("border","1px solid red");
+					}
+					else{
+						$("input[name=pass]").css("border","1px solid grey");
+						$("input[name=cpass]").css("border","1px solid grey");
+					}
+				}
+				function validate()
+				{
+					if(document.forms[0]["pass"].value != document.forms[0]["cpass"].value)
+					{
+						alert("Password mismatch...");
+						return false;
+					}
+					return true;
+				}
+            </script>
+            <form action="register.jsp" method="post" onsubmit="return validate()">
+            	<table class="tabular-form">
+                	<tr>
+                    	<td>Name *</td>
+                        <td><input type="text" name="name" autocomplete="off" autofocus required /></td>
+                    </tr>
+                	<tr>
+                    	<td>E-Mail ID *</td>
+                        <td><input type="email" name="id" autocomplete="off" required /></td>
+                    </tr>
+                	<tr>
+                    	<td>Password *</td>
+                        <td><input type="password" name="pass" onkeyup="run()" required /></td>
+                    </tr>
+                	<tr>
+                    	<td>Confirm Password *</td>
+                        <td><input type="password" name="cpass" onkeyup="run()" required /></td>
+                    </tr>
+                	<tr>
+                    	<td>Mobile</td>
+                        <td><input type="text" name="mobile" pattern="[0-9]{10}" /></td>
+                    </tr>
+                	<tr>
+                    	<td>City *</td>
+                        <td>
+                        	<select name="city" required>
+                        		<option value="New Delhi">New Delhi</option>
+                        		<option value="New Delhi">Gurugram</option>
+                        		<option value="New Delhi">Noida</option>
+                        		<option value="New Delhi">Other</option>
+                        	</select>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" value="SUBMIT">
+            </form>
+            
+            

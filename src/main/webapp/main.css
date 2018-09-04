@@ -1,0 +1,70 @@
+input[type=text]
+{
+	font-size:20px;
+	text-align:center;
+	background-color:rgba(0,0,0,0);
+	border:1px solid gray;
+}
+input[type=text]:hover,input[type=text]:focus
+{
+	font-size:20px;
+	text-align:center;
+	background-color:rgba(255,255,255,0.7);
+	border:1px solid gray;
+}
+.block
+{
+  border-right:2px solid black;
+  margin: 10px;
+  height: 100%;
+  background-color: azure ;
+
+
+}
+.list ul{
+  list-style-type: none;
+
+}
+.list ul li{
+font-size:  20px;
+}
+.list{
+
+  margin :11px 11px 0px;
+background-color: silver;
+
+
+}
+
+.photo img {
+  margin-top: 46px;
+  margin-left: 60px;
+
+}
+.detail{
+
+background-color: azure;
+margin-top: 15px;
+
+
+}
+
+.submit_button{
+  height: 75px;
+  width: 150px ;
+  margin-left: 85%;
+ 
+}
+
+.link .controls span{
+  background-color: #e6d6d6;
+  padding: 5px;
+}
+
+.help-block{
+  font-size: 12px;
+}
+
+.output_tablle{
+border: 2px solid black;
+}

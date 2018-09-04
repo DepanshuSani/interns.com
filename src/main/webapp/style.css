@@ -1,0 +1,269 @@
+body{
+    overflow-x: hidden;
+   /* background-image:url(../Internship/images/bg.jpg);*/
+    background-repeat: no-repeat ;
+    background-size:cover;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+#container #banner{
+    margin: 0 15% ;
+}
+
+header{
+	padding:20px;
+	background-color:#09F;
+	font-size:50px;
+	font-style:italic;
+	color:#FFFFFF;
+	text-shadow:2px 2px #333;
+}
+header sub{
+	font-size:25px;
+}
+nav{
+	background-color:#000000;
+	color:#FFFFFF;
+}
+nav ul{
+	padding:20px;
+	display:inline;
+}
+nav ul li{
+	display:inline-block;
+}
+nav ul a{
+	display:inline-block;
+	padding:15px 30px 15px 30px;
+	transition:background-color 0.2s, border-radius 0.2s;
+}
+nav ul a:hover, nav ul a.active{
+	background-color:#CCC;
+	border-radius:0px 0px 20px 20px;
+	font-weight:bolder;
+}
+
+
+.slider_container {
+    width: 100%;
+    overflow: hidden; 
+}
+.slideimg {
+    width: 100%;
+    height: 500px;
+
+}
+
+
+#slider {
+    width: 500%;
+    animation: carousel 30s infinite;
+}
+
+.slide {
+    display: inline-block;
+    margin: 0px -2px;
+    width: 20%;
+    position: relative;
+}
+
+@keyframes carousel {
+    0%, 15% {
+        transform: translateX(0%);
+    }  
+    20%, 35% {
+        transform: translateX(-20%);
+    }
+    40%,55% {
+        transform: translateX(-40%);
+    }
+    60%,75% {
+        transform: translateX(-60%);
+    }
+    80%,100% {
+        transform: translateX(-80%);
+    }
+}
+
+.aboutus h1{
+    font-size: 70px;
+    text-align: center ;
+    margin-top: 20px;
+
+}
+
+.aboutus p{
+    text-align : justify;
+    background-color: aqua ;
+    margin : 0 50px;
+    padding: 15px;
+}
+
+#search {
+    width: 85%;
+    margin-left: 10%;
+}
+#search .form {
+    position: relative;
+}
+#search input[type="text"] {
+    width: 80%;
+    height: 44px;
+    font-size: 16px;
+    border: 2px solid #00A699;
+    padding: 0px 10px;
+    
+}
+
+#header {
+    padding: 15px 0px;
+    margin: 2%;
+   
+}
+.col1{
+    width: 100% ;
+    margin-top: 2%;
+}
+#search input[type="button"] {
+    display: inline-block;
+    height: 44px;
+    width: 70px;
+    color: white ;
+    background-color: #00A699;
+    border: none;
+    position: absolute;
+}
+
+.job{
+    background-color:#f8f8f6;
+    width: 100%;
+    border-bottom: 5px solid teal;
+    margin-bottom: 1%;
+    border-radius: 4px;
+  /*  opacity: 0.85;*/
+}
+
+.job h1{
+    font-style: italic;
+    color: #09F;
+    margin-right: 15px;
+    text-shadow:2px 2px #333;
+}
+.job h2{
+    color: teal;
+    margin-left: 20px;
+}
+.job h5{
+    margin-left: 25px;
+}
+
+.job h6{
+	color:grey;
+	margin-left:30px;
+}
+
+.job .table1 h6{
+
+	padding-left:15px;
+	padding-right :75px;
+}
+
+.job .values h6{
+    color: black !Important;
+ 
+}
+
+
+.job:hover{
+    background-color: azure;
+}
+
+
+
+.job .bar{
+    width: 100%;
+    background-color: gray;
+}
+
+.job .bar a{
+    margin-left: 90%;
+    color: aliceblue;
+}
+
+#main-navigation{
+    height:480px;
+    width: 100%;
+    background-color:white;
+    border-right: 5px solid aliceblue;
+    
+
+}
+
+#main-navigation ul li {
+    list-style-type: none;
+    display: block;
+    padding: 15px;
+    border: 1px solid #e4ecf0;
+    color: darkblue;
+    font-weight:500;
+}
+
+
+#main-navigation ul li:hover{
+    background-color: #09F;
+    transition: linear all 0.40s;
+    margin-left: 10px;
+}
+
+#main-navigation ul li:hover{
+ color: white;
+}
+
+#main-navigation .active{
+background-color:#93ccff;
+color:black;
+
+}
+#dashboardheader{
+ font-size: 40px;
+}
+
+#dashboardheader sub{
+    font-size: 20px;
+}
+
+
+#dashboardnav{
+	background-color:#000000;
+	padding:15px;
+
+}
+
+.name{
+	color:white;
+	margin-left:15%;
+
+
+}
+
+.date{
+	color:white;
+	margin-left:5%;
+
+
+}
+
+.SignOut{
+	margin-left:70%;
+
+}

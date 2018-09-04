@@ -1,0 +1,91 @@
+body{
+	margin:0px;
+	background-image:url(bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+header{
+	padding:20px;
+	background-color:#09F;
+	font-size:50px;
+	font-style:italic;
+	color:#FFFFFF;
+	text-shadow:2px 2px #333;
+}
+header sub{
+	font-size:25px;
+}
+nav{
+	background-color:#000000;
+	color:#FFFFFF;
+}
+nav ul{
+	padding:20px;
+	display:inline;
+}
+nav ul li{
+	display:inline-block;
+}
+nav ul a{
+	display:inline-block;
+	padding:15px 30px 15px 30px;
+	transition:background-color 0.2s, border-radius 0.2s;
+}
+nav ul a:hover, nav ul a.active{
+	background-color:#CCC;
+	border-radius:0px 0px 20px 20px;
+	font-weight:bolder;
+}
+#form{
+	border:1px solid black;
+	background-color:#CCC;
+	width:50%;
+	margin-left:25%;
+	text-align:center;
+}
+.login{
+	width:49%;
+	display:inline-block;
+	padding:30px 100px 30px 100px;
+	cursor:pointer;
+	transition:background-color 0.2s, border-radius 0.2s;
+}
+.login:hover{
+	width:49%;
+	display:inline-block;
+	padding:30px 100px 30px 100px;
+	cursor:pointer;
+	background-color:#09F;
+	border-radius:70px 70px 0px 0px;
+}
+#form .active{	
+	background-color:#09F;
+	border-radius:70px 70px 0px 0px;
+}
+form{
+	text-align:center;
+	background-color:rgba(255,255,255,0.8);
+}
+.tabular-form{
+	width:100%;
+	text-align:center;
+}
+.tabular-form tr, .tabular-form td{
+	width:50%;
+}
+.tabular-form td input, .tabular-form td select, .tabular-form td textarea{
+	width:80%;
+	height:40px;
+	margin:5px;
+	border:1px solid grey;
+}
+.tabular-form td input:hover, .tabular-form td input:focus, .tabular-form td select:hover, .tabular-form td select:focus, .tabular-form td textarea:focus{
+	width:80%;
+	height:40px;
+	margin:5px;
+	border:1px solid black;
+	box-shadow:0px 0px 2px black;
+}
+#id, #cpassword{
+	display:inline;
+}

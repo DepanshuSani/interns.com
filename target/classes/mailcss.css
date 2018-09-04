@@ -1,0 +1,72 @@
+.nopadding{
+    padding-right:0 !Important;
+    padding-left:0 !Important;
+}
+
+.tab {
+		
+    float: left;
+    border: 1px solid #ccc;
+    background: #70e4f9; /* For browsers that do not support gradients */
+    background: linear-gradient(#70e4f9, #146679);
+    width: 100%;
+    height: 480px;
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    border:#54A9FF;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 17px;
+    width:100%;
+   
+}
+
+.tab button:hover {
+	margin:0px;
+    background-color: #a782ff;
+}
+
+.tab button.active {
+	margin:0px;
+    background-color: #ed2363;
+}
+
+.tab .tablinks{
+	color:white;
+	margin-left:32px;
+	font-weight:500;
+	
+}
+
+#London .in{
+    width: 95%;
+    margin-left: 13px;
+    height: 40px;
+    padding: 10px;
+}
+
+#London #message{
+	height:250px;
+}
+
+#London .send{
+    width: 100px;
+    margin-left: 42%;
+}
+
+.thead1{
+	background: linear-gradient(#70e4f9, #146679);
+	color: white; 
+	text-align: center; 
+	border: 0 !Important;
+	
+}
+.trr:hover{
+	background:#068297!Important;
+}
